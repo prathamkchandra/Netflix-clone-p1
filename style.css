@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  max-width: 100%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -12,7 +13,7 @@ body {
 
 .main {
   background-image: url("assets/img/netimag.jpg");
-  background-position: center bottom;
+  background-position: center center;
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
   height: 644px;
@@ -29,7 +30,7 @@ body {
 }
 
 nav {
-  max-width: 60vw;
+  max-width: 70vw;
   justify-content: space-between;
   margin: auto;
   display: flex;
@@ -61,7 +62,7 @@ nav button {
   color: white;
   position: relative;
   gap: 16px;
-  padding:116px 23px;
+  padding:115px 23px;
   opacity: 0.8;
 }
 
@@ -155,9 +156,9 @@ nav button {
 .setimg video {
   position: absolute;
   justify-content: center;
-  top: 12vh;
-  right: 90px;
-  width: 555px;
+  top: 6vh;
+  right: 46px;
+  width: 293px;
 }
 
 section.first>div {
@@ -232,7 +233,7 @@ footer .questions {
 
 @media screen and (max-width:600px) {
   nav{
-    max-width: 90vw;
+    max-width: 100%;
 }
 
 .first {
@@ -243,8 +244,10 @@ footer .questions {
     width: 305px;
 }
 
-.secImg video {
-    width: 305px;
+.setimg video {
+  top: 1vh;
+  right:0px;
+  width: 350px;
 }
 
 .hero> :nth-child(1) {
@@ -283,7 +286,7 @@ footer {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1600px) {
   .footer a{
     font-size: 14px;
     color: white;
@@ -301,4 +304,14 @@ footer {
     gap: 29px;
   }
 
+}
+
+@media screen and (max-width:432px){
+  .setimg video {
+    top:  0vh;
+    right: 0px;
+  }
+    .hero {
+      padding:116px 51px;
+  }
 }
