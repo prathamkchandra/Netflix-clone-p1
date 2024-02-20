@@ -149,22 +149,21 @@ nav button {
 }
 
 .setimg img {
-  width: 681px;
+  width: 555px;
   position: relative;
 }
 
 .setimg video {
   position: absolute;
-  justify-content: center;
-  top: 6vh;
-  right: 46px;
-  width: 293px;
+  top: 51px;
+  right: 0px;
+  width: 555px;
 }
 
 section.first>div {
   display: flex;
   flex-direction: column;
-  margin: 45px;
+  padding: 34px 0;
 }
 
 section.first>div :nth-child(1) {
@@ -231,9 +230,9 @@ footer .questions {
   
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1300px) {
   nav{
-    max-width: 100%;
+    max-width: 77%;
 }
 
 .first {
@@ -241,13 +240,13 @@ footer .questions {
 }
 
 .secImg img {
-    width: 305px;
+    width: 363px;
 }
 
 .setimg video {
-  top: 1vh;
-  right:0px;
-  width: 350px;
+  top: 120px;
+  right: 80px;
+  width: 411px;
 }
 
 .hero> :nth-child(1) {
@@ -286,7 +285,7 @@ footer {
 
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1300px) {
   .footer a{
     font-size: 14px;
     color: white;
@@ -303,15 +302,50 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 29px;
   }
-
+  footer .questions {
+    padding: 34px 0;
+  }
 }
 
 @media screen and (max-width:432px){
   .setimg video {
-    top:  0vh;
-    right: 0px;
+    top:  8vh;
+    right: 41px;
+    width: 229px;
+  }
+  nav{
+    max-width: 81%;
   }
     .hero {
       padding:116px 51px;
+  }
+footer {
+  max-width: 364px;
+  padding: 200px 16px;
+}
+
+.footer-item{
+    align-items: center;
+}
+}
+@media screen and (max-width:432px){
+  .footer a{
+    font-size: 14px;
+    color: white;
+  }
+
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 29px;
+  }
+  footer .questions {
+    padding: 34px 0;
   }
 }
