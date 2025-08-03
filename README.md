@@ -1,15 +1,6 @@
 # Netflix-clone-p1
 A simple Netflix clone created using HTML and CSS.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 This project is a static representation of a Netflix-like streaming service. It's built using HTML and CSS to mimic the layout and design of the Netflix website.
